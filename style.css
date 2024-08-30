@@ -1,0 +1,49 @@
+body{
+  background-color: #C1C1C1;
+}
+
+input{
+  background-color: #d8d8d8;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  margin-top: 30px;
+}
+
+#taskList{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  padding: 0;
+}
+
+#taskList > li{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#shrekImg{
+  width: 300px;
+  margin-top: 10px;
+}
+
+.hiddenMacho{
+  display: none;
+}
+
+#machoSong{
+  visibility: hidden;
+}
